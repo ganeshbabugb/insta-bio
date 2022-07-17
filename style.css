@@ -79,9 +79,10 @@ ul > li {
 ul > li > a {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   gap: 0.5em;
+  margin-left:38%;
 }
 
 a {
