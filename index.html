@@ -5,7 +5,6 @@
     <title>Ganesh-babu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="preload" href="./images/bg01.jpg" as="image" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
     <script>
@@ -38,6 +37,7 @@
     </script>
   </head>
   <body>
+    <div id="preloader"></div>
     <div id="vanta"></div>
     <main class="animated">
       <header>
@@ -72,4 +72,10 @@
       </ul>
     </main>
   </body>
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load",function(){
+        loader.style.display = "none";
+        })
+  </script>
 </html>
