@@ -91,7 +91,7 @@ a {
 
 #preloader {
 background: #e3fbfb url(./images/preloader.gif) no-repeat center center;
-background-size: 60%;
+background-size: 80%;
 position: fixed;
 top: 0;
 left: 0;
