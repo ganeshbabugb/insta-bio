@@ -3,8 +3,8 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: left;
-    background-color: #fff;
+    justify-content: center;
+    background-color: #222;
 }
 
 nav ul {
@@ -54,7 +54,7 @@ color: #e7ab57;
 
 
 nav ul li a:hover {
-    color: #fff;
+    color: #222;
 }
 
 nav ul li:hover span {

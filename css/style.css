@@ -4,6 +4,7 @@ body, html{
   margin:0;
   display: table;
   text-align: center;
+  overflow:hidden;
 }
 
 .wrapper{
@@ -11,6 +12,7 @@ body, html{
   vertical-align: middle;
   position: relative;
 }
+
 .background-circle{
   width: 400px;
   height: 400px;
