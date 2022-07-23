@@ -13,11 +13,14 @@ body, html{
   display: table-cell;
   vertical-align: middle;
   position: relative;
-  overflow:hidden;
-  background-image:url("../images/patten.png");
-  background-size: fixed;
-  overflow: hidden;
-}
+  height:100%;
+  width:100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  min-height:100vh;
+  background:url("../images/patten.png") repeat center center fixed;
+  background-size: cover;
+  }
 
 .background-circle{
   width: 400px;
@@ -1074,9 +1077,10 @@ body, html{
   justify-content:center;
   cursor:pointer;
   background:#aac2cc;
-  overflow:hidden;
   position:relative;
   font-family: 'Mochiy Pop One', sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .btn a {
