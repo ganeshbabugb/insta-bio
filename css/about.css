@@ -11,7 +11,7 @@ body, html {
 }
 
 body {
-  background: url(./images/bg01.jpg) no-repeat center center fixed;
+  background: url(../images/bg01.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -97,7 +97,7 @@ a {
 }
 
 #preloader {
-background: #18233e url(./images/preloader.gif) no-repeat center center;
+background: #18233e url(../images/preloader.gif) no-repeat center center;
 background-size: 40%;
 position: fixed;
 top: 0;
