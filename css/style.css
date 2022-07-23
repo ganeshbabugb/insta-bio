@@ -4,7 +4,6 @@ body, html{
   margin:0;
   display: table;
   text-align: center;
-  overflow:hidden;
 }
 
 .wrapper{
@@ -12,7 +11,6 @@ body, html{
   vertical-align: middle;
   position: relative;
 }
-
 .background-circle{
   width: 400px;
   height: 400px;
@@ -75,7 +73,7 @@ body, html{
 
 .head{
   width: 196px;
-  height: 260px;
+  height: 250px;
   border-radius: 50px;
   background: #FFE4BE;
   position: absolute;
@@ -1053,3 +1051,29 @@ body, html{
   transform: scaleY(1) translateY(0px) translateZ(0);
 }
 }
+
+.btn {
+  font-size:20px;
+  font-weight: bold;
+  width:160px;
+  padding:18px;
+  text-align:center;
+  border: 3px solid #E7AB57;
+  border-radius:5px;
+  display:flex;
+  margin-left:45%;
+  margin-top:35px;
+  justify-content:center;
+  cursor:pointer;
+  background:#fff;
+}
+
+.btn a {
+  text-decoration:none;
+  color: #E7AB57;
+}
+
+.btn a:hover {
+  color:#222;
+}
+
