@@ -11,12 +11,14 @@ body, html{
 
 .wrapper{
   display: table-cell;
- /* display: block; */
- /* margin:auto; */
   vertical-align: middle;
   position: relative;
   overflow:hidden;
+  background-image:url("../images/patten.png");
+  background-size: fixed;
+  overflow: hidden;
 }
+
 .background-circle{
   width: 400px;
   height: 400px;
@@ -1083,6 +1085,6 @@ body, html{
 }
 
 .btn a:hover {
-  color:#778F99;
+  color:#1B2735;
 }
 
