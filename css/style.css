@@ -9,6 +9,8 @@ body, html{
 
 .wrapper{
   display: table-cell;
+ /* display: block;
+  margin:auto; */
   vertical-align: middle;
   position: relative;
 }
@@ -1061,8 +1063,8 @@ body, html{
   text-align:center;
   border: 3px solid #E7AB57;
   border-radius:5px;
-  display:flex;
-  margin-left:50%;
+  display:block;
+  margin:auto;
   margin-top:35px;
   justify-content:center;
   cursor:pointer;
