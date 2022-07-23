@@ -4,6 +4,7 @@ body, html{
   margin:0;
   display: table;
   text-align: center;
+  box-sizing: border-box;
 }
 
 .wrapper{
@@ -1061,7 +1062,7 @@ body, html{
   border: 3px solid #E7AB57;
   border-radius:5px;
   display:flex;
-  margin-left:45%;
+  margin-left:50%;
   margin-top:35px;
   justify-content:center;
   cursor:pointer;
