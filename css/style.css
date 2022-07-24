@@ -360,6 +360,7 @@ body, html{
   -webkit-transform: translate(-200px,0px);
   transform: translate(-200px,0px);
 }
+
 .music-note{
   position: absolute;
   font-size: 150px;
@@ -368,6 +369,7 @@ body, html{
   left: 50%;
   opacity: 0;
 }
+
 .music-note#one{
   margin-left: -250px;
   top: 50%;
@@ -376,6 +378,7 @@ body, html{
   -webkit-animation: note-anim 2s 3.5s infinite ease;
   -webkit-animation-fill-mode: forwards;
 }
+
 .music-note#two{
   margin-left: 150px;
   top: 30%;
@@ -383,45 +386,58 @@ body, html{
   animation-fill-mode: forwards;
   -webkit-animation: note-anim 2s 4.3s infinite ease;
   -webkit-animation-fill-mode: forwards;
+  user-select: none;
 }
+
 .shirt-text{
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: white;
   position: relative;
   top: -300px;
-  font-size: 40px;
+  font-size: 35px;
   display: inline-block;
   -webkit-text-stroke: 2px;
   -webkit-transform: translate(0px,100px);
   transform: translate(0px,100px);
   animation-fill-mode: forwards !important;
   -webkit-animation-fill-mode: forwards !important;
+  user-select: none;
 }
 .shirt-text:nth-of-type(1){
+  color: #98CC96;
   animation: text-anim 0.7s 3s 1 ease;
   -webkit-animation: text-anim 0.7s 3s 1 ease;
 }
 .shirt-text:nth-of-type(2){
-  color: #EF4136;
+  color: #98CC96;
   animation: text-anim 0.7s 3.1s 1 ease;
   -webkit-animation: text-anim 0.7s 3.1s 1 ease;
 }
 .shirt-text:nth-of-type(3){
+  color: #98CC96;
   animation: text-anim 0.7s 3.2s 1 ease;
   -webkit-animation: text-anim 0.7s 3.2s 1 ease;
 }
 .shirt-text:nth-of-type(4){
+  color: #FFE9A3;
   animation: text-anim 0.7s 3.3s 1 ease;
   -webkit-animation: text-anim 0.7s 3.3s 1 ease;
 }
 .shirt-text:nth-of-type(5){
+  color: #98CC96;
   animation: text-anim 0.7s 3.4s 1 ease;
   -webkit-animation: text-anim 0.7s 3.4s 1 ease;
 }
 .shirt-text:nth-of-type(6){
+  color: #98CC96;
   animation: text-anim 0.7s 3.5s 1 ease;
   -webkit-animation: text-anim 0.7s 3.5s 1 ease;
+}
+.shirt-text:nth-of-type(7){
+  color: #EF4136;
+  animation: text-anim 0.7s 3.6s 1 ease;
+  -webkit-animation: text-anim 0.7s 3.6s 1 ease;
 }
 
 @keyframes grow
@@ -1068,26 +1084,35 @@ body, html{
   width:160px;
   padding:18px;
   text-align:center;
-  border: 3px solid #778F99;
-  border-radius:5px;
+  border-bottom: 4px solid #c0392b;
+  box-shadow: 6px 6px 6px #999;
+  border-radius: 10px;
   display:block;
   margin:auto;
   margin-top:35px;
   justify-content:center;
   cursor:pointer;
-  background:#aac2cc;
-  position:relative;
+  background: #e74c3c;
+  transition: background 0.05s linear;
+  transition: all .05s linear;  position:relative;
   font-family: 'Mochiy Pop One', sans-serif;
   overflow-x: hidden;
   overflow-y: auto;
+  letter-spacing: 4px;
+  user-select: none;
 }
 
 .btn a {
   text-decoration:none;
-  color: #334C68;
+  color: white;
 }
 
 .btn a:hover {
-  color:#1B2735;
+  color: #FFE9A3;
 }
 
+.btn:active {
+  box-shadow: 2px 2px 2px #777;
+  border-bottom: 1px solid #c0392b;
+  transform: translateY(3px);
+}
