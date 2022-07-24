@@ -18,9 +18,8 @@ body, html{
   overflow-x: hidden;
   overflow-y: auto;
   min-height:100vh;
-  background:url("../images/patten.png") repeat center center fixed;
-  background-size: cover;
-  }
+}
+
 
 .background-circle{
   width: 400px;
