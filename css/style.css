@@ -436,6 +436,7 @@ body, html{
 }
 .shirt-text:nth-of-type(7){
   color: #EF4136;
+  font-size:28px;
   animation: text-anim 0.7s 3.6s 1 ease;
   -webkit-animation: text-anim 0.7s 3.6s 1 ease;
 }
@@ -1100,6 +1101,8 @@ body, html{
   overflow-y: auto;
   letter-spacing: 4px;
   user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  text-transform: uppercase;
 }
 
 .btn a {
