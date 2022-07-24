@@ -67,7 +67,8 @@ ul {
   list-style: none;
   margin: 0 auto;
   padding: 2em;
-  max-width: 480px;
+  max-width: 400px;
+  user-select:none;
 }
 
 ul > li {
@@ -78,6 +79,7 @@ ul > li {
   padding: 1em;
   margin: 1.4em 0;
   box-shadow: rgb(28 32 93 / 24%) 0px 2px 8px 0px;
+  user-select:none;
 }
 
 ul > li > a {
@@ -85,8 +87,8 @@ ul > li > a {
   flex-direction: row;
   justify-content: left;
   align-items: left;
+  margin-left:30%;
   gap: 0.5em;
-  margin-left:38%;
 }
 
 a {
