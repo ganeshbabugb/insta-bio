@@ -320,7 +320,7 @@ body, html{
 }
 .shadow{
   width: 98px;
-  height: 260px;
+  height: 250px;
   border-radius: 50px;
   background: rgba(149,36,0,0.1);
   position: absolute;
@@ -1104,15 +1104,17 @@ body, html{
 
 .btn a {
   text-decoration:none;
-  color: white;
+  color: #fff;
 }
 
 .btn a:hover {
-  color: #FFE9A3;
+  color: #fff;
 }
 
 .btn:active {
   box-shadow: 2px 2px 2px #777;
   border-bottom: 1px solid #c0392b;
   transform: translateY(3px);
+  background: #98cc96;
+  border-bottom: 4px solid #658264;
 }
