@@ -22,8 +22,8 @@ body, html{
 
 
 .background-circle{
-  width: 400px;
-  height: 400px;
+  width:  350px;
+  height: 350px;
   border-radius: 100%;
   overflow: hidden;
   margin: 0 auto;
@@ -67,7 +67,7 @@ body, html{
 
 .body{
   width: 285px;
-  height: 600px;
+  height: 550px;
   margin: 0 auto;
   background: #222;
   border-radius: 100px;
@@ -83,7 +83,7 @@ body, html{
 
 .head{
   width: 196px;
-  height: 250px;
+  height: 230px;
   border-radius: 50px;
   background: #FFE4BE;
   position: absolute;
@@ -111,7 +111,7 @@ body, html{
   background: #E7AB57;
   border-radius: 54px 54px 0px 0px;
   margin-left: -12px;
-  margin-top: -10px;
+  margin-top: -6px;
   animation:hair-anim 0.7s 0.9s 1 ease;
   animation-fill-mode: forwards;
   -webkit-animation:hair-anim 0.7s 0.9s 1 ease;
@@ -125,6 +125,7 @@ body, html{
   height: 70px;
   opacity: 0;
   border-top-right-radius: 30px;
+  border-top-left-radius: 15px;
   background: #E7AB57;
   position: relative;
   top: -17px;
@@ -141,7 +142,7 @@ body, html{
 
 .hair-bottom{
   width: 54px;
-  height: 50px;
+  height: 40px;
   opacity: 0;
   border-bottom-left-radius: 25px;
   background: #E7AB57;
@@ -160,7 +161,7 @@ body, html{
 
 .sideburn{
   width: 8px;
-  height: 25px;
+  height: 26px;
   background: #E7AB57;
   position: absolute;
   bottom: -25px;
@@ -169,6 +170,8 @@ body, html{
   animation-fill-mode: forwards;
   -webkit-animation:sideburn-anim 0.7s 0.9s 1 ease;
   -webkit-animation-fill-mode: forwards;
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
 }
 
 .sideburn#left{
@@ -225,12 +228,12 @@ body, html{
   transform: scale(0);
 }
 .mouth{
-  width: 66px;
-  height: 33px;
+  width: 60px;
+  height: 30px;
   border-radius: 0 0 33px 33px;
   background: white;
   position: absolute;
-  top: 150px;
+  top: 144px;
   left: 50%;
   margin-left: -33px;
   animation:grow 0.7s 2.6s 1 ease;
@@ -247,8 +250,8 @@ body, html{
   right: -12px;
 }
 .eye-shadow{
-  width:30px;
-  height: 15px;
+  width:26px;
+  height: 10px;
   border-radius: 0 0 15px 15px;
   background:rgba(149,36,0,0.1);
   position: absolute;
@@ -268,7 +271,7 @@ body, html{
   right: 35px;
 }
 .eyebrow{
-  width: 40px;
+  width: 35px;
   height: 10px;
   background: #E7AB57;
   position: absolute;
@@ -276,6 +279,7 @@ body, html{
   left: 50%;
   margin-left: -20px;
   opacity: 0;
+  border-radius:5px;
   -webkit-backface-visibility: hidden;
 }
 .eye-shadow#left .eyebrow{
@@ -291,8 +295,8 @@ body, html{
   -webkit-animation-fill-mode: forwards;
 }
 .eye{
-  width: 20px;
-  height: 28px;
+  width: 18px;
+  height: 24px;
   border-radius: 10px;
   background: #334C68;
   position: absolute;
@@ -320,7 +324,7 @@ body, html{
 }
 .shadow{
   width: 98px;
-  height: 250px;
+  height: 230px;
   border-radius: 50px;
   background: rgba(149,36,0,0.1);
   position: absolute;
@@ -351,7 +355,7 @@ body, html{
   background: #000000;
   opacity: 0.2;
   position: absolute;
-  left: -60%;
+  left: -71%;
   top: 30%;
   animation: triangle-dark-anim 1s 3s 1 ease;
   animation-fill-mode: forwards;
@@ -1082,7 +1086,7 @@ body, html{
 .btn {
   font-size:20px;
   font-weight: bold;
-  width:160px;
+  width:150px;
   padding:18px;
   text-align:center;
   border-bottom: 4px solid #c0392b;
