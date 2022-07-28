@@ -7,6 +7,7 @@ body, html{
   display: table;
   text-align: center;
   box-sizing: border-box;
+  user-select:none;
 }
 
 .wrapper{
@@ -36,6 +37,7 @@ body, html{
   animation:grow 0.7s 1 ease;
   -webkit-animation:grow 0.7s 1 ease;
   transform-origin: center;
+  border: 1px solid #222;
 }
 .border-circle{
   width: 399px;
